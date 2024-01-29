@@ -17,7 +17,9 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  Foo
+    exposed-modules:  
+        Foo
+        Wee
     -- other-modules:
     -- other-extensions:
     build-depends:    base, aeson
