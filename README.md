@@ -23,4 +23,5 @@ nix derivation show
 
 - [flake references](https://zero-to-nix.com/concepts/flakes)
 
+- [Using nixpkgs.legacyPackages.${system} vs import](https://discourse.nixos.org/t/using-nixpkgs-legacypackages-system-vs-import/17462)
 
