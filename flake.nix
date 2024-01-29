@@ -1,7 +1,7 @@
 {
   description = "A very basic flake";
 
-  inputs.nixpkgs= "nixpkgs/release-23.11";
+  inputs.nixpkgs.url = "nixpkgs/release-23.11";
 
   outputs = { self, nixpkgs }: {
 
