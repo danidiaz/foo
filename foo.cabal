@@ -19,7 +19,7 @@ library
     import:           warnings
     exposed-modules:  
         Foo
-        Wee
+        Foo.Wee
     -- other-modules:
     -- other-extensions:
     build-depends:    base, aeson
