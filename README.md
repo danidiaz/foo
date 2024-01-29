@@ -7,3 +7,9 @@ This is a dummy package for testing incremental Haskell builds with Nix.
 ```
 nix run github:NixOS/nixpkgs/release-21.11#cabal2nix .
 ```
+
+# links 
+
+- [flake references](https://zero-to-nix.com/concepts/flakes)
+
+
