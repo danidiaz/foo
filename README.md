@@ -17,8 +17,10 @@ nix build --no-link
 nix flake show
 nix flake info
 nix derivation show
+nix derivation show | nix run nixpkgs#jq -- '.[].outputs'
 ```
 [(manual)](https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake)
+```
 
 # links 
 
