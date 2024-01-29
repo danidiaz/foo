@@ -13,7 +13,7 @@
           # https://nixos.org/manual/nixpkgs/unstable/#haskell-incremental-builds
           # https://nixos.org/manual/nixpkgs/unstable/#haskell-overriding-haskell-packages
           myDerivIntermediates = pkgs.haskell.lib.compose.overrideCabal (drv: {
-              previousIntermediates = previous.packages.x86_64-linux.default.out.intermediates;
+              previousIntermediates = previous.packages.x86_64-linux.default.intermediates;
             }) myDeriv;
        in myDerivIntermediates;
     packages.x86_64-linux.default = self.packages.x86_64-linux.foo;

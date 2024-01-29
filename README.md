@@ -44,3 +44,6 @@ nix-repl> inputs.previous.packages.x86_64-linux.default.out.intermediates.outPat
 
 > when you want to override the arguments passed to haskellPackages.mkDerivation. For this, the function overrideCabal from haskell.lib.compose is used
 
+- [derivations](https://nixos.org/manual/nix/stable/language/derivations.html)
+
+> You can refer to each output of a derivation by selecting it as an attribute. The first element of outputs determines the default output and ends up at the top-level.

@@ -1,4 +1,4 @@
 module Foo.Wee (wee) where 
 
 wee :: Int
-wee = 1
+wee = 4
