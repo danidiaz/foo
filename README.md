@@ -22,6 +22,18 @@ nix derivation show | nix run nixpkgs#jq -- '.[].outputs'
 [(manual)](https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake)
 ```
 
+```
+nix-repl> :load-flake .
+warning: Git tree '/home/danidiaz/foo2' is dirty
+Added 12 variables.
+
+nix-repl> inputs.previous.packages.x86_64-linux.default.outPath
+"/nix/store/m7grbnx0wgql7ffvrlirv43k83zyza62-foo-0.1.0.0"
+
+nix-repl> inputs.previous.packages.x86_64-linux.default.out.intermediates.outPath
+"/nix/store/rcj0jwna867vdxrsij5nrl8pw91p91rv-foo-0.1.0.0-intermediates"
+```
+
 # links 
 
 - [flake references](https://zero-to-nix.com/concepts/flakes)

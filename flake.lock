@@ -15,9 +15,43 @@
         "type": "indirect"
       }
     },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1707570443,
+        "narHash": "sha256-ar88F6RJHQwUV81pcmRqhl0l6fmqTexrd5HqFJj21/4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e9d6667c427eb79602c02ba980219426dc39fafc",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "release-23.11",
+        "type": "indirect"
+      }
+    },
+    "previous": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1706509772,
+        "narHash": "sha256-r1D+vVzlHNpVtxa063XNbis0E1UrfP1wTz8+3z9TuMw=",
+        "ref": "refs/heads/main",
+        "rev": "95a79abba101131daf6d5082dbe1ff22051702e3",
+        "revCount": 16,
+        "type": "git",
+        "url": "file:///home/danidiaz/foo"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/danidiaz/foo"
+      }
+    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "previous": "previous"
       }
     }
   },
