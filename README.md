@@ -26,3 +26,7 @@ nix derivation show
 
 - [Using nixpkgs.legacyPackages.${system} vs import](https://discourse.nixos.org/t/using-nixpkgs-legacypackages-system-vs-import/17462)
 
+- [Haskell section of the Nixpkgs manual](https://nixos.org/manual/nixpkgs/unstable/#haskell). [incremental builds](https://nixos.org/manual/nixpkgs/unstable/#haskell-incremental-builds)
+
+> when you want to override the arguments passed to haskellPackages.mkDerivation. For this, the function overrideCabal from haskell.lib.compose is used
+
